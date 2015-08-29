@@ -1,0 +1,6 @@
+# Emacs #
+#########
+emacs.d/auto-save-list
+# TODO Using `use-package` should enable the ability to build replay replay
+#      installation of packages on new systems.
+emacs.d/elpa
