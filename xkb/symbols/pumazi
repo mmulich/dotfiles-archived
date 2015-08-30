@@ -1,0 +1,21 @@
+partial hidden modifier_keys
+xkb_symbols "caps2enter" {
+    key <CAPS> { [ Return ] };
+};
+
+partial hidden modifier_keys
+xkb_symbols "tab2backspace" {
+    key <TAB> { [ BackSpace ] };
+};
+
+// FIXME The layout is probably incorrect.
+
+partial hidden modifier_keys
+xkb_symbols "rcmd2tab" {
+    key <RWIN> { [ Tab ] };
+};
+
+partial hidden modifier_keys
+xkb_symbols "lcmd2ctrl" {
+    key <LWIN> { [ Control_L ] };
+};
