@@ -1,0 +1,6 @@
+# Build files #
+###############
+*.o
+*.hi
+*.errors
+*-x86_64-linux
