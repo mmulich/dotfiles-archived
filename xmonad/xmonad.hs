@@ -7,3 +7,6 @@ import System.IO
 
 main = do
   xmonad $ defaultConfig
+         { manageHook = manageDocks <+> manageHook defaultConfig
+         , layoutHook = avoidStruts  $  layoutHook defaultConfig
+         }
